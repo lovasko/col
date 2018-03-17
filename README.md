@@ -17,6 +17,9 @@ cout << red    << "ERROR" << col::reset << " disk is full"        << endl;
 cout << yellow << "WARN " << col::reset << " disk is almost full" << endl;
 cout << green  << "INFO " << col::reset << " disk is available"   << endl;
 ```
+
+![screenshot solarized](example.png)
+
 It is worth to mention the output stream manipulator `col::reset` that can be
 used to reset all color effects previously set to the default terminal state.
 
