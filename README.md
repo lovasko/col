@@ -13,9 +13,9 @@ string green  = col::make(col::green,  col::def, false, false, false);
 
 Now we are ready to print text to the standard output stream:
 ```cpp
-cout << red << "ERROR" << col::reset << " disk is full"        << endl;
-cout << yel << "WARN " << col::reset << " disk is almost full" << endl;
-cout << gre << "INFO " << col::reset << " disk is available"   << endl;
+cout << red    << "ERROR" << col::reset << " disk is full"        << endl;
+cout << yellow << "WARN " << col::reset << " disk is almost full" << endl;
+cout << green  << "INFO " << col::reset << " disk is available"   << endl;
 ```
 It is worth to mention the output stream manipulator `col::reset` that can be
 used to reset all color effects previously set to the default terminal state.
